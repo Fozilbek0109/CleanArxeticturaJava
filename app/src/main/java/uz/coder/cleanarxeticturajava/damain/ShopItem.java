@@ -3,7 +3,8 @@ package uz.coder.cleanarxeticturajava.damain;
 public class ShopItem {
     private String name;
     private int count;
-    private int id =0;
+    private int id = UNDEFIND_ID;
+    public static final int UNDEFIND_ID = -1;
 
     public ShopItem(String name, int count) {
         this.name = name;
